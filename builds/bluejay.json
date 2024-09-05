@@ -4,13 +4,13 @@
         "maintainer": "nhansp ft. yuuki",
         "oem": "Google",
         "device": "Pixel 6a",
-        "filename": "EvolutionX-14.0-20240904-bluejay-v9.3-Unofficial.zip",
-        "download": "https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/EvolutionX-14.0-20240904-bluejay-v9.3-Unofficial.zip",
-        "timestamp": 1725414745,
-        "md5": "3963c0bbb3856d6e0e87bd843b51e69d",
-        "sha256": "f21aac2c2238f6047f5970d2390137ab6b13eb2d36f91d75628cb8c7cc789dec",
-        "size": 2620307700,
-        "version": "9.3",
+        "filename": "EvolutionX-14.0-20240905-bluejay-v9.4-Unofficial.zip",
+        "download": "https://sourceforge.net/projects/evolution-x/files/bluejay/14/EvolutionX-14.0-20240905-bluejay-v9.4-Unofficial.zip/download",
+        "timestamp": 1725541435,
+        "md5": "0ca90d230e81732d04e66be6b2c57393",
+        "sha256": "16ca69ed65cfcdc69d0e86a2805505f94a956ea07749e55be29bd965505a7ba0",
+        "size": 2616184599,
+        "version": "9.4",
         "buildtype": "05.20",
         "forum": "https://tvyiutnhisokewt.github.io/changelogs/bluejay",
         "firmware": "",
@@ -18,4 +18,4 @@
         "telegram": "https://instagram.com/th.nhee"
       }
     ]
-  }
+}

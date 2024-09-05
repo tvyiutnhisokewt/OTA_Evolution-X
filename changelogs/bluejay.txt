@@ -1,4 +1,4 @@
-duy them bulul tnhi 100 cu???
+5/9/2024: lock/unlock sound animations added
 
 TODO: add 90hz to kernel source and release new prebuilt kernel
 (bluejay-kernel) (gs101) (gs-common) (slider)
