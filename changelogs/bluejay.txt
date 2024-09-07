@@ -1,2 +1,4 @@
 5/9/2024: lock/unlock sound animations added
-7/9/2024: added 90hz (in development)
+
+TODO: add 90hz to kernel source and release new prebuilt kernel
+(bluejay-kernel) (gs101) (gs-common) (slider)
