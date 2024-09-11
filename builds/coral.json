@@ -1,21 +1,21 @@
 {
   "response": [
     {
-      "maintainer": "nhansp",
+      "maintainer": "nhansp ft. yuuki",
       "oem": "Google",
       "device": "Pixel 4 XL",
-      "filename": "EvolutionX-14.0-20240905-coral-v9.4-Unofficial.zip",
-      "download": "https://pub-c7a0aeee712f46e2a200accc18af6caf.r2.dev/EvolutionX-14.0-20240905-coral-v9.4-Unofficial.zip",
-      "timestamp": 1725545476,
-      "md5": "996da1511a22046a05984187b6ef4bbb",
-      "sha256": "8b98348fed30ec8fb033747d592e36a098c38afd30f7a147053c3bc1c7ca90c3",
-      "size": 2328777577,
+      "filename": "EvolutionX-14.0-20240911-coral-v9.4-Unofficial.zip",
+      "download": "https://pub-c7a0aeee712f46e2a200accc18af6caf.r2.dev/coral/EvolutionX-14.0-20240911-coral-v9.4-Unofficial.zip",
+      "timestamp": 1726057913,
+      "md5": "931e58d904d19019f31577ee8d56c846",
+      "sha256": "00dc85b63cc834d905ca941b1a5aaf94e63fad2432937fc16b7837d03b31816c",
+      "size": 2335161908,
       "version": "9.4",
       "buildtype": "deocoanhtnhi",
-      "forum": "https://instagram.com/_zyzu_03",
-      "firmware": "TP1A.221005.002.B2",
-      "paypal": "https://instagram.com/_zyzu_03",
-      "telegram": "https://instagram.com/_zyzu_03"
+      "forum": "https://tvyiutnhisokewt.github.io/coral",
+      "firmware": "",
+      "paypal": "",
+      "telegram": ""
     }
   ]
 }
