@@ -35,11 +35,11 @@ fi
 # Device specifics
 if [ $1 == "bluejay" ]; then
     device="Pixel 6a"
-    download="https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/bluejay/$filename"
+    download="https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/$filename"
     buildtype="05.20"
 elif [ $1 == "coral" ]; then
     device="Pixel 4 XL"
-    download="https://pub-c7a0aeee712f46e2a200accc18af6caf.r2.dev/coral/$filename"
+    download="https://pub-c7a0aeee712f46e2a200accc18af6caf.r2.dev/$filename"
     buildtype="deocoanhtnhi"
 fi
 
