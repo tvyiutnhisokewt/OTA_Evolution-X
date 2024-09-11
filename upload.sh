@@ -22,7 +22,7 @@ evo="9.4"
 # About us and the device
 maintainer="nhansp ft. yuuki"
 oem="Google"
-build_date=`date +'%Y%d%m'`
+build_date=`date +'%Y%m%d'`
 filename="EvolutionX-$android-$build_date-$1-v$evo-Unofficial.zip"
 forum="https://tvyiutnhisokewt.github.io/$1"
 

@@ -1,21 +1,21 @@
 {
-    "response": [
-      {
-        "maintainer": "nhansp ft. yuuki",
-        "oem": "Google",
-        "device": "Pixel 6a",
-        "filename": "EvolutionX-14.0-20240907-bluejay-v9.4-Unofficial.zip",
-        "download": "https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/EvolutionX-14.0-20240907-bluejay-v9.4-Unofficial.zip",
-        "timestamp": 1725677188,
-        "md5": "308899ffe26fce216ed717fcf524c1f7",
-        "sha256": "885a739c4e79be0439eecb679f7530c423989424cfd108bd45d5bcd0fbb41f93",
-        "size": 2615584676,
-        "version": "9.4",
-        "buildtype": "05.20",
-        "forum": "https://tvyiutnhisokewt.github.io/changelogs/bluejay",
-        "firmware": "",
-        "paypal": "https://instagram.com/th.nhee",
-        "telegram": "https://instagram.com/th.nhee"
-      }
-    ]
+  "response": [
+    {
+      "maintainer": "nhansp ft. yuuki",
+      "oem": "Google",
+      "device": "Pixel 6a",
+      "filename": "EvolutionX-14.0-20240911-bluejay-v9.4-Unofficial.zip",
+      "download": "https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/bluejay/EvolutionX-14.0-20240911-bluejay-v9.4-Unofficial.zip",
+      "timestamp": 1726055795,
+      "md5": "3ca13929120ea4c0c10f83925e523bbe",
+      "sha256": "90772745a51bf5223d4648ce833d2466ee20682835ed419b31f57ef901998dad",
+      "size": 2619865122,
+      "version": "9.4",
+      "buildtype": "05.20",
+      "forum": "https://tvyiutnhisokewt.github.io/bluejay",
+      "firmware": "",
+      "paypal": "",
+      "telegram": ""
+    }
+  ]
 }
