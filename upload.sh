@@ -8,7 +8,21 @@
 
 # Check if the argument exists
 if [ $# -eq 0 ]; then
-  echo "Usage: ./upload.sh <device>"
+  echo "
+Usage: 
+./upload.sh <device> [build_date] ["is_minimal"]
+  
+  device: the device about to be uploaded
+
+  build_date: if specified, get the builds on a specific date
+  "is_minimal": if specified, get the minimal type build
+
+___________________________________________________________________________
+
+tvyiunhisokewt 2024
+https://github.com/tvyiutnhisokewt
+made by nhansp ft. yuuki with bash, R2 Cloudflare, GitHub Releases and hope
+  "
   exit 2
 fi
 
@@ -22,8 +36,28 @@ evo="9.4"
 # About us and the device
 maintainer="nhansp ft. yuuki"
 oem="Google"
-build_date=`date +'%Y%m%d'`
-filename="EvolutionX-$android-$build_date-$1-v$evo-Unofficial.zip"
+
+# Check if we have specified the desired build date, otherwise get today's date
+if [[ $2 -eq 0 ]]; then
+	build_date=`date +'%Y%m%d'`
+else
+  echo "build_date has been set to $2"
+	build_date=$2
+fi
+
+# Check if we are getting the minimal build
+if [ $3 == "is_minimal" ]; then
+  filename="EvolutionX-$android-$build_date-$1_minimal-v$evo-Unofficial.zip"
+  echo $filename
+elif [[ $3 -eq 0 ]]; then
+  filename="EvolutionX-$android-$build_date-$1-v$evo-Unofficial.zip"
+else
+  echo "
+$3 is an invalid build type.
+supported types are: is_minimal"
+  exit 2
+fi
+
 forum="https://tvyiutnhisokewt.github.io/$1"
 
 # Before we do anything, check if the build exists
