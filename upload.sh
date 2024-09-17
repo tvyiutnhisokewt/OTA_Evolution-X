@@ -21,8 +21,7 @@ ___________________________________________________________________________
 
 tvyiunhisokewt 2024
 https://github.com/tvyiutnhisokewt
-made by nhansp ft. yuuki with bash, R2 Cloudflare, GitHub Releases and hope
-  "
+made by nhansp ft. yuuki with bash, R2 Cloudflare, GitHub Releases and hope"
   exit 2
 fi
 
@@ -48,7 +47,6 @@ fi
 # Check if we are getting the minimal build
 if [ $3 == "is_minimal" ]; then
   filename="EvolutionX-$android-$build_date-$1_minimal-v$evo-Unofficial.zip"
-  echo $filename
 elif [[ $3 -eq 0 ]]; then
   filename="EvolutionX-$android-$build_date-$1-v$evo-Unofficial.zip"
 else
