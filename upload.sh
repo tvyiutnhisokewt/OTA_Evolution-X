@@ -45,7 +45,7 @@ else
 fi
 
 # Check if we are getting the minimal build
-if [ $3 == "is_minimal" ]; then
+if [[ $3 == "is_minimal" ]]; then
   filename="EvolutionX-$android-$build_date-$1_minimal-v$evo-Unofficial.zip"
 elif [[ $3 -eq 0 ]]; then
   filename="EvolutionX-$android-$build_date-$1-v$evo-Unofficial.zip"
