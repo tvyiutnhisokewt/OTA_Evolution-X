@@ -130,9 +130,6 @@ echo
 echo
 
 # Upload OTA package
-echo "Moving previous $1 build"
-rclone --min-size 0 delete r2:$1-prev
-rclone moveto r2:$1 r2:$1-prev
 echo "Emptying $1 bucket"
 rclone --min-size 0 delete r2:$1
 
