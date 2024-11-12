@@ -106,7 +106,7 @@ echo '{
       "md5": "'$md5'",
       "sha256": "'$sha256'",
       "size": '$size',
-      "version": "'dựa trên Android 15 (bản thử nghiệm)'",
+      "version": "'dựa trên Android 15 \(bản thử nghiệm\)'",
       "buildtype": "'$buildtype'",
       "forum": "'$forum'",
       "firmware": "''",
