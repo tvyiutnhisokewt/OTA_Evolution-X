@@ -29,8 +29,8 @@ fi
 product_out="$(eval echo ~$USER)/evolution/out/target/product/$1"
 
 # Android and Evolution X version
-android="14.0"
-evo="9.5"
+android="15.0"
+evo="10.0"
 
 # About us and the device
 maintainer="nhansp ft. yuuki"
@@ -72,7 +72,7 @@ if [ $1 == "bluejay" ]; then
 elif [ $1 == "coral" ]; then
     device="Pixel 4 XL"
     download="https://pub-c7a0aeee712f46e2a200accc18af6caf.r2.dev/$filename"
-    buildtype="deocoanhtnhi"
+    buildtype="vy"
 fi
 
 # Get and calculate product properties
@@ -106,7 +106,7 @@ echo '{
       "md5": "'$md5'",
       "sha256": "'$sha256'",
       "size": '$size',
-      "version": "'$evo'",
+      "version": "'dựa trên Android 15 (bản thử nghiệm)'",
       "buildtype": "'$buildtype'",
       "forum": "'$forum'",
       "firmware": "''",
