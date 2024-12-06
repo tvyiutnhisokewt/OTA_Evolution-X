@@ -1,0 +1,28 @@
+{
+    "latest": {
+        "cheetah": [
+            {
+                "version": "10.0, stable",
+                "variant": "stable",
+                "url": "https://ftueduvn-my.sharepoint.com/personal/k63_2412960019_ftu_edu_vn/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fk63%5F2412960019%5Fftu%5Fedu%5Fvn%2FDocuments%2Ftvyiutnhisokewt%5Fcheetah%5F20241207%2Dimg%2Ezip"
+            },
+            {
+                "version": "10.0, latest",
+                "variant": "latest",
+                "url": "https://ftueduvn-my.sharepoint.com/personal/k63_2412960019_ftu_edu_vn/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fk63%5F2412960019%5Fftu%5Fedu%5Fvn%2FDocuments%2Ftvyiutnhisokewt%5Fcheetah%5F20241207%2Dimg%2Ezip"
+            }
+        ],
+        "bluejay": [
+            {
+                "version": "10.0, stable",
+                "variant": "stable",
+                "url": ""
+            },
+            {
+                "version": "10.0, latest",
+                "variant": "latest",
+                "url": ""
+            }
+        ]
+    }
+}
