@@ -69,7 +69,7 @@ if [ $1 == "bluejay" ]; then
     device="Pixel 6a"
     download="https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/$filename"
     buildtype="05.20"
-elif [ $1 == "coral" ]; then
+elif [ $1 == "cheetah" ]; then
     device="Pixel 7 Pro"
     download="https://pub-0679a3a7a63a4485aedebca702f8f1e3.r2.dev/$filename"
     buildtype="vy"
