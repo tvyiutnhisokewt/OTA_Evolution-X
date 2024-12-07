@@ -46,9 +46,9 @@ fi
 
 # Check if we are getting the minimal build
 if [[ $3 == "is_minimal" ]]; then
-  filename="EvolutionX-$android-$build_date-$1_minimal-v$evo-Unofficial.zip"
+  filename="EvolutionX-$android-$build_date-$1_minimal-$evo-Unofficial.zip"
 elif [[ $3 -eq 0 ]]; then
-  filename="EvolutionX-$android-$build_date-$1-v$evo-Unofficial.zip"
+  filename="EvolutionX-$android-$build_date-$1-$evo-Unofficial.zip"
 else
   echo "
 $3 is an invalid build type.
@@ -70,8 +70,8 @@ if [ $1 == "bluejay" ]; then
     download="https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/$filename"
     buildtype="05.20"
 elif [ $1 == "coral" ]; then
-    device="Pixel 4 XL"
-    download="https://pub-c7a0aeee712f46e2a200accc18af6caf.r2.dev/$filename"
+    device="Pixel 7 Pro"
+    download="https://pub-0679a3a7a63a4485aedebca702f8f1e3.r2.dev/$filename"
     buildtype="vy"
 fi
 
@@ -106,7 +106,7 @@ echo '{
       "md5": "'$md5'",
       "sha256": "'$sha256'",
       "size": '$size',
-      "version": "'dựa trên Android 15 \(bản thử nghiệm\)'",
+      "version": "'$evo'",
       "buildtype": "'$buildtype'",
       "forum": "'$forum'",
       "firmware": "''",
@@ -135,17 +135,20 @@ rclone --min-size 0 delete r2:$1
 
 echo "Uploading $1"
 
-# For Pixel 4 XL: Upload boot and OTA package only
-if [ $1 == "coral" ]; then
-  rclone copy "$product_out/boot.img" r2:$1
-  rclone copy "$product_out/$filename" r2:$1
-fi
-
 # For Pixel 6a: Upload boot, dtbo, vendor_boot and OTA package
 if [ $1 == "bluejay" ]; then
   rclone copy "$product_out/boot.img" r2:$1
   rclone copy "$product_out/dtbo.img" r2:$1
   rclone copy "$product_out/vendor_boot.img" r2:$1
+  rclone copy "$product_out/$filename" r2:$1
+fi
+
+# For Pixel 7 Pro: Upload boot, dtbo, vendor_boot, vendor_kernel_boot and OTA package
+if [ $1 == "cheetah" ]; then
+  rclone copy "$product_out/boot.img" r2:$1
+  rclone copy "$product_out/dtbo.img" r2:$1
+  rclone copy "$product_out/vendor_boot.img" r2:$1
+  rclone copy "$product_out/vendor_kernel_boot.img" r2:$1
   rclone copy "$product_out/$filename" r2:$1
 fi
 
