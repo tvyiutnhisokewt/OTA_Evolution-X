@@ -1,21 +1,13 @@
 {
   "response": [
     {
-      "maintainer": "nhansp ft. yuuki",
-      "oem": "Google",
-      "device": "Pixel 6a",
-      "filename": "lineage-22.1-20250115-UNOFFICIAL-bluejay.zip",
-      "download": "https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/lineage-22.1-20250115-UNOFFICIAL-bluejay.zip",
-      "timestamp": 1736931397,
-      "md5": "51833823f394d8ca339db14d5d1d6dc8",
-      "sha256": "d4247df88d2b77bc869d766106ebf650ac557bc5fc0c1a767e5930d5d7f33a38",
-      "size": 2158435853,
-      "version": "-> tvyiutnhisokewt",
-      "buildtype": "05.20",
-      "forum": "https://tvyiutnhisokewt.github.io/bluejay",
-      "firmware": "",
-      "paypal": "",
-      "telegram": ""
+      "datetime": 1737998276,
+      "filename": "EvolutionX-15.0-20250128-bluejay-10.2-Unofficial.zip",
+      "id": "aedc5d46a0a97d4906c6cc383f7268ab",
+      "romtype": "UNOFFICIAL",
+      "size": 2391609428,
+      "url": "https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/EvolutionX-15.0-20250128-bluejay-10.2-Unofficial.zip",
+      "version": "22.1"
     }
   ]
 }
