@@ -1,21 +1,13 @@
 {
   "response": [
     {
-      "maintainer": "nhansp ft. yuuki",
-      "oem": "Google",
-      "device": "Pixel 6a",
+      "datetime": 1737998276,
       "filename": "EvolutionX-15.0-20250128-bluejay-10.2-Unofficial.zip",
-      "download": "https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/EvolutionX-15.0-20250128-bluejay-10.2-Unofficial.zip",
-      "timestamp": 1737998276,
-      "md5": "aedc5d46a0a97d4906c6cc383f7268ab",
-      "sha256": "efb5e557f82c67b1cc476fd24007d948158c502551c9d597156745d3d129a4b4",
+      "id": "aedc5d46a0a97d4906c6cc383f7268ab",
+      "romtype": "UNOFFICIAL",
       "size": 2391609428,
-      "version": "10.2",
-      "buildtype": "05.20",
-      "forum": "https://tvyiutnhisokewt.github.io/bluejay",
-      "firmware": "",
-      "paypal": "",
-      "telegram": ""
+      "url": "https://pub-4a686e4731f74758ab53df526a4fe7da.r2.dev/EvolutionX-15.0-20250128-bluejay-10.2-Unofficial.zip",
+      "version": "22.1"
     }
   ]
 }
