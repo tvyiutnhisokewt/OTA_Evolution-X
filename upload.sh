@@ -30,7 +30,7 @@ product_out="$(eval echo ~$USER)/evolution/out/target/product/$1"
 
 # Android and Evolution X version
 android="15.0"
-evo="10.4"
+evo="10.5"
 
 # About us and the device
 maintainer="nhansp ft. yuuki"
