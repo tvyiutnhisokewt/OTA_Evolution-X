@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1746929984,
-      "filename": "lineage-20.0-20250511-UNOFFICIAL-starlte.zip",
-      "id": "284a41bda8859c5baf64d7080d4987cf",
+      "datetime": 1747009094,
+      "filename": "lineage-20.0-20250512-UNOFFICIAL-starlte.zip",
+      "id": "266a1947a4a19ea7a7bcf77307040ee8",
       "romtype": "UNOFFICIAL",
-      "size": 1096869787,
-      "url": "https://github.com/tvyiutnhisokewt/OTA_Evolution-X/releases/download/lineage-20.0-starlte/lineage-20.0-20250511-UNOFFICIAL-starlte.zip",
+      "size": 1097891196,
+      "url": "https://github.com/tvyiutnhisokewt/OTA_Evolution-X/releases/download/lineage-20.0-starlte-testing/lineage-20.0-20250512-UNOFFICIAL-starlte.zip",
       "version": "20.0"
     }
   ]
